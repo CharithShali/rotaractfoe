@@ -8,7 +8,8 @@ const navbar = () => {
   return (
     <div className="rotaract_navbar">
       <div className="rotaract_navbar-links">
-        <div className="rotaract_navbar-links_logo">
+        <div className="flex rotaract_navbar-links_logo">
+          <p className="mr-3 text-6xl font-bold text-pink-500">Rotract</p>
           <img src={logo} alt="logo" />
         </div>
       </div>
