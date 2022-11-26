@@ -1,25 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import {Footer,Blog,Possibility,Features,whatRotaract,Header} from './containers';
-import {CTA,Brand,Navbar} from './components';
-import './App.css';
+import ROUTES from "./routes/routes";
 
 const App = () => {
   return (
-    <div className='App'>
-      <div className='gradient_bg'>
-        <Navbar/>
-        <Header/>
-      </div>
-      <Brand/>
-      <whatRotaract/>
-      <Features/>
-      <Possibility/>
-      <CTA/>
-      <Blog/>
-      <Footer/>
+    <div>
+      <ROUTES />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
