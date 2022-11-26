@@ -2,6 +2,7 @@ import React from 'react'
 import './navbar.css';
 import {RiMenu3Line,RiCloseLin} from 'react-icons/ri';
 import logo from '../../assets/logo.png'
+import you from '../../assets/you.jpg'
 
 const navbar = () => {
   return (
@@ -10,16 +11,17 @@ const navbar = () => {
       <div className='rotaract_navbar-links_logo'>
         <img src={logo} alt='logo'/>
       </div>
-      <div className='rotaract_navbar-links_container'>
-        <p><a href='#Home'>Home</a></p>
-        <p><a href='#rotaract'>What is Rotaract</a></p>
-        <p><a href='#branches'>Branches</a></p>
-        <p><a href='#contact'>Contact</a></p>
-      </div>
+    
       </div>
       <div className='rotaract_navbar-sign'>
-        <p>Sign in</p>
-        <button type='button'>Sign Up</button>
+        <p>Home</p>
+        <p>Join us</p>
+        <p>Donate</p>
+      </div>
+      <div className='logo'>
+        <p><img src={you} alt='logo' w/>
+      </p>
+       
       </div>
     </div>
   )
